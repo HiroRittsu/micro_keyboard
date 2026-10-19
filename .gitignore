@@ -1,0 +1,22 @@
+# KiCad temporary/session files
+*.kicad_prl
+*.lck
+*-backups/
+*_backups/
+fp-info-cache
+
+# ZMK/West generated workspace and build output
+/.west/
+/modules/
+/zephyr/
+/bootloader/
+/tools/
+/build/
+/build-*/
+*.uf2
+*.hex
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

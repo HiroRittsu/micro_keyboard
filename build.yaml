@@ -1,0 +1,5 @@
+# ZMKのビルド対象は、シールド定義とGPIO割当ができた段階で追加します。
+# 例（ZMKのバージョンに応じてboard名を確定）:
+# include:
+#   - board: xiao_ble//zmk
+#     shield: micro_keyboard
