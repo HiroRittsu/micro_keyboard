@@ -1,0 +1,22 @@
+{
+  "footprints": {
+    "url": "https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/New_XIAO_Series_Footprints.zip",
+    "sha256": "671cb119639e489091b87a64e070d4aba1f22860ddfdbecc85ff143c0c295e28"
+  },
+  "symbols": {
+    "url": "https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_SCH_Symbols.zip",
+    "sha256": "e80bc5e41b427ed5428e37ceebf0258a1b37f312f93135c29f5ffd898b8bfdf5"
+  },
+  "model": {
+    "url": "https://files.seeedstudio.com/wiki/XIAO-BLE/seeed-studio-xiao-nrf52840-3d-model.zip",
+    "sha256": "0ee799787103e54f382a784abd425e841401934356d4e083308cb0f083bf63a8"
+  },
+  "bottom": {
+    "url": "https://files.seeedstudio.com/wiki/XIAO-BLE/Bottom-pad-positioning.zip",
+    "sha256": "22a7a9afb9ac8db83f244ad2adae3f5def490064671853423bcb50a2fce15663"
+  },
+  "dimensions": {
+    "url": "https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO-nRF52840-DXF.zip",
+    "sha256": "2924f943284b27b319632aa27c12f8a5d330f1cce18ea46b4ca3cee501660a21"
+  }
+}

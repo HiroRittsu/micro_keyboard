@@ -1,0 +1,115 @@
+(footprint "AE-XCL103-3V3_Horizontal"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (attr through_hole)
+  (descr "秋月 AE-XCL103-3V3 10x7.5mm、平置き、付属直ピンヘッダ直付け。部品面上。独自DIP番号、6=主電源IN。基板厚1.6mm。")
+  (tags "Akizuki 116116 boost XCL103 horizontal DIP6")
+
+  (property "Reference" "REF**" (at 0 -5.1 0)
+    (layer "F.SilkS")
+    (uuid "42b076a5-774d-4eec-8a1d-9435e440ce57")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "AE-XCL103-3V3_Horizontal" (at 0 5.1 0)
+    (layer "F.Fab")
+    (uuid "0439c4c8-ebf5-43e4-b884-ae90999a3228")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "9a8abb20-477a-4c1b-9b95-001f1d9c8c74")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -5.25 -4.1)
+    (end 5.25 4.1)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "48e8cdb9-cda7-4d3a-8c46-e1489526665f")
+  )
+
+  (fp_rect
+    (start -5 -3.75)
+    (end 5 3.75)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "2b256dc4-2802-4333-ac54-d59dcf295667")
+  )
+
+  (fp_rect
+    (start -5 -3.75)
+    (end 5 3.75)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "6a66936a-6a9f-4805-ade6-20eb28d90c5d")
+  )
+
+  (pad "1" thru_hole rect
+    (at -3.81 -2.54)
+    (size 1.8 1.8)
+    (drill 0.8)
+    (layers "*.Cu" "*.Mask")
+    (uuid "04b4a976-5dac-4133-9f5c-90ac2d15f00a")
+  )
+
+  (pad "2" thru_hole circle
+    (at -3.81 0)
+    (size 1.8 1.8)
+    (drill 0.8)
+    (layers "*.Cu" "*.Mask")
+    (uuid "7613874f-517b-48f9-a107-09fbe73dc42c")
+  )
+
+  (pad "3" thru_hole circle
+    (at -3.81 2.54)
+    (size 1.8 1.8)
+    (drill 0.8)
+    (layers "*.Cu" "*.Mask")
+    (uuid "99f70ae5-d07e-4904-af2c-104e4a7882b0")
+  )
+
+  (pad "4" thru_hole circle
+    (at 3.81 2.54)
+    (size 1.8 1.8)
+    (drill 0.8)
+    (layers "*.Cu" "*.Mask")
+    (uuid "53bc1051-7b36-4f1a-aeb1-21021d6da64e")
+  )
+
+  (pad "5" thru_hole circle
+    (at 3.81 0)
+    (size 1.8 1.8)
+    (drill 0.8)
+    (layers "*.Cu" "*.Mask")
+    (uuid "ad0c8eb9-f015-47bd-93f2-da38f964d24a")
+  )
+
+  (pad "6" thru_hole circle
+    (at 3.81 -2.54)
+    (size 1.8 1.8)
+    (drill 0.8)
+    (layers "*.Cu" "*.Mask")
+    (uuid "14aa5b32-0f2c-43ed-9ef3-eaff2ffe4764")
+  )
+
+
+  (fp_poly (pts (xy -5.0 -2.94) (xy -5.0 -2.14) (xy -5.30 -2.54))
+    (stroke (width 0.10) (type default)) (fill solid) (layer "F.SilkS"))
+  (fp_text user "GND" (at -1.8 -2.54) (layer "F.Fab") (effects (font (size 0.65 0.65) (thickness 0.10))))
+  (fp_text user "EN" (at -1.8 0) (layer "F.Fab") (effects (font (size 0.65 0.65) (thickness 0.10))))
+  (fp_text user "IN_AUX" (at -1.4 2.54) (layer "F.Fab") (effects (font (size 0.65 0.65) (thickness 0.10))))
+  (fp_text user "IN" (at 2.0 -2.54) (layer "F.Fab") (effects (font (size 0.65 0.65) (thickness 0.10))))
+  (fp_text user "GND" (at 1.8 0) (layer "F.Fab") (effects (font (size 0.65 0.65) (thickness 0.10))))
+  (fp_text user "OUT" (at 1.8 2.54) (layer "F.Fab") (effects (font (size 0.65 0.65) (thickness 0.10))))
+	(model "${KIPRJMOD}/lib/3d_models/AE-XCL103-3V3_Horizontal.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
+)

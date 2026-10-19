@@ -4,6 +4,8 @@
 *-backups/
 *_backups/
 fp-info-cache
+/hardware/kicad/.history/
+/hardware/kicad/lib/symbols/*.bak
 
 # ZMK/West generated workspace and build output
 /.west/

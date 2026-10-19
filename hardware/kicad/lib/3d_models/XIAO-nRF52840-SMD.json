@@ -1,0 +1,41 @@
+{
+  "source_url": "https://files.seeedstudio.com/wiki/XIAO-BLE/seeed-studio-xiao-nrf52840-3d-model.zip",
+  "source_file": "XIAO-nRF52840 v15.step",
+  "source_sha256": "7aae140f838ec4ccf624e1902c56fb5ad1161d8dc3b0d759ba379d1a83d75890",
+  "source_solids": 84,
+  "removed_solids": [
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83
+  ],
+  "reason": "Remove Sense microphone MSM261D3526H1CPM and contacts; standard external envelope. Shield interior not modeled.",
+  "axis_rotation_deg": 120,
+  "axis": [
+    1,
+    1,
+    1
+  ],
+  "translation_mm": [
+    15.00139995541252,
+    8.755341314413581,
+    0.250000000000002
+  ],
+  "model_bbox_mm": {
+    "xmin": -5.10702591327572e-15,
+    "xmax": 17.780000000000026,
+    "ymin": 0.08199999999999918,
+    "ymax": 22.563981150153932,
+    "zmin": -1.1102230246251565e-16,
+    "zmax": 4.460000014901317
+  },
+  "notes": [
+    "Manufacturer model dated 2023-06-02; not a measured current revision.",
+    "Colors are assigned for visualization; no bitmap markings.",
+    "Parent PCB thickness is separate from module thickness."
+  ]
+}

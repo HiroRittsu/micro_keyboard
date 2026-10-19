@@ -1,0 +1,88 @@
+{
+  "solid_count": 61,
+  "all_solids_valid": true,
+  "bbox_mm": {
+    "xmin": -5.0,
+    "xmax": 5.0,
+    "ymin": -3.810000000000001,
+    "ymax": 3.8100000000000005,
+    "zmin": -5.3,
+    "zmax": 4.48
+  },
+  "module_board_bottom_above_host_mm": 1.8,
+  "module_board_top_above_host_mm": 3.4000000000000004,
+  "highest_component_above_host_mm": 4.48,
+  "verified_component_envelopes": {
+    "U1": {
+      "part": "XCL103D333CR-G",
+      "xyz_size_mm": [
+        2.5,
+        2.0,
+        1.04
+      ]
+    },
+    "C1": {
+      "part": "GRM188R6YA106MA73",
+      "xyz_size_mm": [
+        1.6,
+        0.8,
+        0.8
+      ]
+    },
+    "C2": {
+      "part": "GRM188R6YA106MA73",
+      "xyz_size_mm": [
+        1.6,
+        0.8,
+        0.8
+      ]
+    },
+    "R1": {
+      "part": "RK73B1ETTP104J",
+      "xyz_size_mm": [
+        0.5,
+        1.0,
+        0.35
+      ]
+    }
+  },
+  "pin_mapping_top_view": [
+    {
+      "number": 1,
+      "function": "GND",
+      "x": -3.81,
+      "y": -2.54
+    },
+    {
+      "number": 2,
+      "function": "EN",
+      "x": -3.81,
+      "y": 0.0
+    },
+    {
+      "number": 3,
+      "function": "IN_AUX",
+      "x": -3.81,
+      "y": 2.54
+    },
+    {
+      "number": 4,
+      "function": "OUT_3V3",
+      "x": 3.81,
+      "y": 2.54
+    },
+    {
+      "number": 5,
+      "function": "GND",
+      "x": 3.81,
+      "y": 0.0
+    },
+    {
+      "number": 6,
+      "function": "IN",
+      "x": 3.81,
+      "y": -2.54
+    }
+  ],
+  "step_file": "AE-XCL103-3V3_Horizontal.step"
+}

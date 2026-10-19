@@ -1,1 +1,3 @@
-Reference,Value,Footprint,Quantity,Notes
+"Reference","Value","Footprint","Quantity","Manufacturer","MPN","Supplier_PN","Supplier_URL","Assembly"
+"U1","AE-XCL103-3V3","micro_keyboard:AE-XCL103-3V3_Horizontal","1","秋月電子通商","AE-XCL103-3V3","116116","https://akizukidenshi.com/catalog/g/g116116/","平置き・直ピンヘッダ直付け・部品面上・基板厚1.6mm"
+"U2","XIAO nRF52840","micro_keyboard:XIAO-nRF52840-SMD","1","Seeed Studio","102010448","102010448","https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html","平置き・ピンなし・表面実装・部品面上"

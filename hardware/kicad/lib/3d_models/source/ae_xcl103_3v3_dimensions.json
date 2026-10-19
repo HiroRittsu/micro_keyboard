@@ -1,0 +1,43 @@
+{
+  "units": "mm",
+  "board": {
+    "length": 10.0,
+    "width": 7.5,
+    "thickness": 1.6,
+    "module_hole_diameter": 0.8,
+    "outline_source": "https://akizukidenshi.com/goodsaffix/AE-XCL103-3V3_20250721.pdf",
+    "thickness_source": "User-specified 2026-10-19: 1.6 mm; not a manufacturer measurement",
+    "module_hole_source": "Visual approximation; header recommended mating drill is 0.80 +/-0.05 mm"
+  },
+  "header": {
+    "part": "PHA-1x9SG cut into two 1x3 sections",
+    "pitch": 2.54,
+    "body_width": 2.0,
+    "body_height": 1.8,
+    "pin_square": 0.5,
+    "upper_pin_length": 2.0,
+    "lower_pin_length": 5.3,
+    "source": "https://akizukidenshi.com/goodsaffix/A295-PHA-1xXXSG.pdf"
+  },
+  "assembly": {
+    "solder_gap": 0.04,
+    "mounting": "Horizontal, component side up; header plastic between mother PCB and module; no socket; lower pins untrimmed",
+    "solder_gap_source": "Visual approximation, not a dimensional tolerance"
+  },
+  "pads": [
+    {"number": 1, "function": "GND", "x": -3.81, "y": -2.54},
+    {"number": 2, "function": "EN", "x": -3.81, "y": 0.0},
+    {"number": 3, "function": "IN_AUX", "x": -3.81, "y": 2.54},
+    {"number": 4, "function": "OUT_3V3", "x": 3.81, "y": 2.54},
+    {"number": 5, "function": "GND", "x": 3.81, "y": 0.0},
+    {"number": 6, "function": "IN", "x": 3.81, "y": -2.54}
+  ],
+  "pin_numbering_note": "Project-defined DIP numbering in component-side top view; manufacturer does not number the six module contacts",
+  "placement_source": "https://akizukidenshi.com/img/goods/3/116116.jpg; projected/scaled from 7.62 x 5.08 mm pin-center rectangle; estimates, not manufacturing centroid data",
+  "components": [
+    {"reference": "U1", "part": "XCL103D333CR-G", "kind": "inductor_ic", "length": 2.5, "width": 2.0, "height": 1.04, "x": 0.65, "y": -0.1, "source": "https://product.torexsemi.com/en/series/xcl103"},
+    {"reference": "C1", "part": "GRM188R6YA106MA73", "kind": "mlcc", "length": 1.6, "width": 0.8, "height": 0.8, "x": 1.1, "y": -2.25, "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"},
+    {"reference": "C2", "part": "GRM188R6YA106MA73", "kind": "mlcc", "length": 1.6, "width": 0.8, "height": 0.8, "x": 0.6, "y": 2.4, "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"},
+    {"reference": "R1", "part": "RK73B1ETTP104J", "kind": "resistor", "length": 1.0, "width": 0.5, "height": 0.35, "x": -2.05, "y": -0.5, "source": "https://www.koaspeer.com/pdfs/RK73B.pdf"}
+  ]
+}
